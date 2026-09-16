@@ -1,6 +1,8 @@
 # https://gtfobins.org/
 
-# GTFOBins is primarily used by penetration testers, red teamers, cybersecurity students (such as those playing Capture The Flag / CTF challenges), and system administrators for the following reasons:  
+# GTFOBins 
+
+GTFObins is primarily used by penetration testers, red teamers, cybersecurity students (such as those playing Capture The Flag / CTF challenges), and system administrators for the following reasons:  
 
 Privilege Escalation: If a user finds a binary that they are allowed to run via sudo, or one that has the SUID bit set, they can look it up on GTFOBins. The site provides copy-and-paste commands that instantly exploit that binary to spawn a root shell.  
 
