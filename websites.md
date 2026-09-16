@@ -1,6 +1,6 @@
 # https://gtfobins.org/
 
-# GTFOBins 
+# What is GTFOBins? 
 
 ### GTFObins is primarily used by penetration testers, red teamers, cybersecurity students (such as those playing Capture The Flag / CTF challenges), and system administrators for the following reasons:  
 
