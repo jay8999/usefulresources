@@ -40,3 +40,27 @@
 # https://www.wappalyzer.com/
 
 ## Wappalyzer(opens in new tab) is a browser extension and online tool that identifies the technologies a website uses, frameworks, CMS platforms, CDNs, analytics tools, payment processors, and more. It can often detect version numbers, which helps when searching for known vulnerabilities. Install it from your browser's extension store and visit any site to see the tech stack immediately.
+
+# https://github.com/OJ/gobuster
+
+[Gobuster] is an open-source enumeration tool written in Go. It supports multiple modes: directory/file enumeration (`dir`), DNS subdomain enumeration (`dns`), and virtual host enumeration (`vhost`). It's pre-installed on the AttackBox and included by default in Kali Linux.
+
+Run `gobuster --help` to see the available commands and global flags:
+
+| Flag | Description |
+| :--- | :--- |
+| `-t` / `--threads` | Number of concurrent threads (default: 10). Increase for faster scans. |
+| `-w` / `--wordlist` | Path to the wordlist file. Required for all modes. |
+| `-o` / `--output` | Write results to a file instead of stdout. |
+| `--delay` | Wait time between requests: useful against rate-limited servers. |
+
+## Wordlists
+
+A good wordlist is critical. [SecLists](https://github.com/danielmiessler/SecLists) is the most widely used collection and is pre-installed on the AttackBox at `/usr/share/wordlists/SecLists/`. For directory enumeration, `Discovery/Web-Content/common.txt` and `Discovery/Web-Content/directory-list-2.3-medium.txt` cover most scenarios.
+
+## dir Mode
+
+The `dir` mode brute-forces directories and files on a web server. The basic syntax is:
+
+    ```bash
+    gobuster dir -u "[http://10.48.140.140](http://10.48.140.140)" -w /path/to/wordlist
