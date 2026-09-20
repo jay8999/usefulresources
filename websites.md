@@ -36,3 +36,7 @@
 * **Prevents "Tutorial Hell":** Gives you a clear direction instead of wandering aimlessly through random tutorials.
 * **Free and Open Source:** Entirely community-driven and updated regularly to keep pace with industry standards.
 * **Comprehensive:** Covers both offensive (hacking) and defensive (protecting) aspects of security.
+
+# https://www.wappalyzer.com/
+
+## Wappalyzer(opens in new tab) is a browser extension and online tool that identifies the technologies a website uses, frameworks, CMS platforms, CDNs, analytics tools, payment processors, and more. It can often detect version numbers, which helps when searching for known vulnerabilities. Install it from your browser's extension store and visit any site to see the tech stack immediately.
