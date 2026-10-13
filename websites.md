@@ -64,3 +64,17 @@ The `dir` mode brute-forces directories and files on a web server. The basic syn
 
     ```bash
     gobuster dir -u "[http://10.48.140.140](http://10.48.140.140)" -w /path/to/wordlist
+
+# What is MITRE ATT&CK?
+## MITRE ATT&CK is primarily used by cybersecurity professionals, threat hunters, red teamers, blue teamers, and security architects for the following reasons:
+- **Threat Modeling & Emulation:** Security teams use the framework to understand how adversaries operate in the wild, allowing red teams to emulate real-world attack chains and test their organization's defenses against known behaviors.
+- **Defensive Gap Analysis:** Organizations map their security controls, monitoring solutions, and detection logic against ATT&CK matrices (Enterprise, Mobile, and ICS) to identify gaps in visibility and coverage.
+- **Incident Response & Threat Intelligence:** Investigators use the knowledge base to categorize adversary tactics and techniques during security incidents, helping them attribute attacks, trace threat actor groups, and understand campaign strategies.
+- **Security Standardization & Communication:** It provides a common, globally recognized taxonomy for the cybersecurity industry to describe adversary actions, streamlining communication between security analysts, executives, and vendors.
+
+
+
+
+
+
+
