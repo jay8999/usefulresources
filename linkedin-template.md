@@ -11,6 +11,7 @@ Room Specific Summary
 🔷
 
 
-Continuous learning is key in cybersecurity. Excited to apply these concepts to future threat modeling and incident response scenarios! 💻🔒
+Additional Notes:
+
 
 #CyberSecurity #TryHackMe #CyberKillChain #InfoSec #ContinuousLearning #ThreatIntelligence
