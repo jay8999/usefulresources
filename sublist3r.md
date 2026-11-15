@@ -52,7 +52,7 @@ You can integrate Sublist3r into your own automation scripts:
 
     import sublist3r
 
-# Call the main function to fetch subdomains
+## Call the main function to fetch subdomains
 
     subdomains = sublist3r.main(
         domain='example.com', 
@@ -65,5 +65,6 @@ You can integrate Sublist3r into your own automation scripts:
         engines=None
     )
 
-for subdomain in subdomains:
+## for subdomain in subdomains:
+
     print(subdomain)
