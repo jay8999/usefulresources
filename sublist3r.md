@@ -64,7 +64,7 @@ You can integrate Sublist3r into your own automation scripts:
         enable_bruteforce=False, 
         engines=None
     )
+    for subdomain in subdomains:
+        print(subdomain)
 
-## for subdomain in subdomains:
 
-    print(subdomain)
