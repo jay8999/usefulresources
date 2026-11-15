@@ -4,9 +4,13 @@ Sublist3r is a fast, open-source Python tool designed to enumerate subdomains of
 It helps ethical hackers, penetration testers, and security researchers map out the external attack surface of an organization by discovering hidden or less obvious subdomains.
 ## Key Features
 Passive Reconnaissance: Gathers subdomain information quickly without directly pinging the target infrastructure loudly.
+
 Multiple Data Sources: Integrates with several public search engines and security databases (such as Google, Yahoo, Bing, VirusTotal, Netcraft, ThreatCrowd, and DNSdumpster).
+
 Brute-Force Integration: Includes Subbrute to find additional subdomains via brute-force enumeration using an improved wordlist.
+
 Port Filtering: Allows users to check found subdomains against specific TCP ports.
+
 Python Module Support: Can be imported and used directly within custom Python scripts.
 
 ## Installation:
