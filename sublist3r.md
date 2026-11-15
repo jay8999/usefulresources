@@ -1,5 +1,6 @@
 # Sublist3r Summary Guide🔍 
-## OverviewSublist3r is a fast, open-source Python tool designed to enumerate subdomains of target websites using Open Source Intelligence (OSINT). 
+## Overview
+Sublist3r is a fast, open-source Python tool designed to enumerate subdomains of target websites using Open Source Intelligence (OSINT). 
 It helps ethical hackers, penetration testers, and security researchers map out the external attack surface of an organization by discovering hidden or less obvious subdomains.
 ## Key Features
 Passive Reconnaissance: Gathers subdomain information quickly without directly pinging the target infrastructure loudly.
